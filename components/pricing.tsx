@@ -64,7 +64,7 @@ function PlanCard({ plan }: { plan: (typeof plans)[0] }) {
 
   return (
     <div
-      className={`relative bg-zinc-900 rounded-3xl p-10 flex flex-col transition-all border ${
+      className={`relative bg-zinc-900 rounded-md p-10 flex flex-col transition-all border ${
         plan.popular
           ? "lg:scale-105 border-zinc-400 z-10"
           : "border-zinc-800 hover:border-zinc-700"
