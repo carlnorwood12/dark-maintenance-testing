@@ -111,9 +111,8 @@ export function Features() {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Everything Your Website Needs
             </h2>
-            <p className="text-lg text-zinc-400 max-w-md mx-auto">
-              Comprehensive maintenance services to keep your website running at its best
-            </p>
+            <p className="text-lg text-zinc-400 mx-auto max-w-prose">
+            We provide a complete maintenance solution, securely managing your site's security, speed, updates, and support.            </p>
           </div>
         </div>
 

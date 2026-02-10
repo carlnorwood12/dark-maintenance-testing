@@ -1,6 +1,7 @@
 import { Hero } from "@/components/hero";
 import { Pricing } from "@/components/pricing";
 import { Features } from "@/components/features";
+import { SocialProof } from "@/components/socialproof";
 
 const CornerCross = ({ color = "bg-white", position }) => {
   const posClasses = {
@@ -36,6 +37,8 @@ export default function Page() {
         <Hero />
         <Pricing />
         <Features />
+        <SocialProof />
+
         
       </div>
     </main>

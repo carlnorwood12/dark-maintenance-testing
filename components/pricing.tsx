@@ -74,7 +74,7 @@ function PlanCard({ plan }: { plan: (typeof plans)[0] }) {
     >
       {plan.popular && (
         <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-zinc-100 text-zinc-900 px-4 py-1.5 rounded-full text-sm font-semibold z-30">
-          Most Popular
+          Best Value
         </div>
       )}
 
